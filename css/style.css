@@ -1,0 +1,79 @@
+body{
+    border-radius: 10px;
+    box-shadow:0 0 10px red;
+    margin:65px;
+    width: 300px;
+    padding: 10px;
+}
+.Container{
+    border-radius: 10px;
+    font-size: 17px;
+    font-variant: small-caps;
+    height: 500px;
+    padding: 20px 0px 0 40px;
+    width: 500px;
+    background-color: silver;
+}
+form{
+    margin: 20px;
+}
+.form-group{
+    text-shadow: 2px 2px 0px red;
+    font-size: 23px;
+    color: white;
+}
+.form-control{   
+    box-shadow: 0 0 5px blue;
+    font-size: 20px;
+    height: 30px;
+    border-radius: 5px;
+}
+.form-control:hover{   
+    background-color:aqua;
+    border-radius: 5px;
+}
+.form-submit{
+    border-radius: 5px;
+    background-color: aqua;
+}
+.form-submit:hover{
+
+    color: white;
+    background-color: orangered;
+}
+/* Bài 2 */
+.Container >form {
+    margin: 0px;
+}
+.Container >form >label{
+    font-size: 20px;
+    line-height: 47px;
+}
+.Container form .conten{
+    border-radius: 5px;
+    width: 500px;
+    height: 30px;
+    font-size: large;
+    box-shadow: 0 0 5px blue;
+}
+.Container form textarea{
+    border-radius: 5px;
+    box-shadow: 0 0 5px blue;
+}
+.Container form button{
+    margin-left: 5px;
+    box-shadow: 0 0 5px blue;
+}
+.Container form button a{
+    text-decoration: none;
+}
+
+.conten:hover{
+    background-color: aqua;
+}
+.Container form textarea:hover{
+    background-color: aqua;
+}
+.Container form button:hover{
+    background-color: aqua;
+}

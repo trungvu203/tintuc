@@ -1,0 +1,42 @@
+body{
+    border-radius: 10px;
+    box-shadow:0 0 10px red;
+    margin:65px;
+    width: 500px;
+    padding: 10px;
+}
+.Container >form {
+    margin: 0px;
+}
+.Container >form >label{
+    font-size: 20px;
+    line-height: 47px;
+}
+.Container form .conten{
+    border-radius: 5px;
+    width: 500px;
+    height: 30px;
+    font-size: large;
+    box-shadow: 0 0 5px blue;
+}
+.Container form textarea{
+    border-radius: 5px;
+    box-shadow: 0 0 5px blue;
+}
+.Container form button{
+    margin-left: 5px;
+    box-shadow: 0 0 5px blue;
+}
+.Container form button a{
+    text-decoration: none;
+}
+
+.conten:hover{
+    background-color: aqua;
+}
+.Container form textarea:hover{
+    background-color: aqua;
+}
+.Container form button:hover{
+    background-color: aqua;
+}
