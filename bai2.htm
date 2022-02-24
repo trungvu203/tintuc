@@ -5,38 +5,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lab9</title>
+    <title>lab10</title>
     <link rel="stylesheet" href="css/style2.css">
 </head>
 
 <body>
-    <div class="Container">
-        <form action="#">
-            <label>User Name:</label><br>
-            <input type="text" name="ID" class="form-control"> <br>
-            <label>Giới tính:</label><br>
-                <input type="radio" name="rdoGioiTinh" >Nam
-                <input type="radio" name="rdoGioiTinh" >Nữ <br>
-                <label>Hình ảnh:</label><br>
-            <input type="file"> <br>
-            <label>Quốc tịch:</label><br>
-            <select name="" id="link" class="conten">
-                
-                <option>Việt Nam</option>
-                <option>Lào</option>
-                <option>Ý</option>
-                <option>Pháp</option>
-            </select><br>
-            <label for="#">Sở thích:</label>
-                <input type="checkbox">Thể thao
-                <input type="checkbox">Du lịch
-                <input type="checkbox">Ẩm thực
-                <input type="checkbox">Âm nhạc <br>
-            <label for="#">Ghi chú:</label><br>
-            <textarea name="" id="" cols="50" rows="2"></textarea> <br>
+    <div class="container">
+        <form>
+            <div class="form-group">
+                <label class="form-group-labe">Họ và tên:</label><br>
+                <input type="text" class="form-control">
+            </div>
+            <div class="form-group">
+                <fieldset>
+                    <legend>Giới tính:</legend>
+                    <input type="radio" name="rdGioiTinh">Nam
+                    <input type="radio" name="rdGioiTinh">Nữ
+                </fieldset>
+            </div>
+            <div class="form-group">
+                <label class="form-group-labe">Ngày sinh:</label><br>
+                <input type="date" class="form-control">
+            </div>
+            <div class="form-group">
+                <label class="form-group-labe">Điểm:</label><br>
+                <input type="number" min="0" max="10" step="0.25" placeholder="Điểm" class="form-control">
+            </div>
+            <div class="form-group">
+                <label class="form-group-labe">Nghề Nghiệp:</label><br>
+                <input list="Nghề" class="form-control" tabindex="5">
+                <datalist id="Nghề">
+                    <option value="Bác sĩ"></option>
+                    <option value="Công nhân"></option>
+                    <option value="Y tá"></option>
+                    <option value="Kĩ sư"></option>
+                    <option value="Giáo viên"></option>
+                </datalist>
+            </div>
+            <div class="form-group">
+                <fieldset>
+                    <legend>Sở thích:</legend>
+                    <input type="checkbox" name="rdGioiTinh">Công nhân
+                    <input type="checkbox" name="rdGioiTinh">Bác sĩ 
+                    <input type="checkbox" name="rdGioiTinh">Y tá
+                    <input type="checkbox" name="rdGioiTinh">Vũ nữ
+                    <input type="checkbox" name="rdGioiTinh" class="form-group-labe">Công an
+                </fieldset>
+            </div>
+            <div class="form-group">
+                <label class="form-group-labe">Ghi chú</label><br>
+                <textarea class="form-control"></textarea>
+            </div>
             <hr>
-            <button type="submit">Đăng ký</button>
-            <button type="reset">Nhập lại</button>
+            <button class="form-buttom" type="button"><a href="#">Đăng ký</a></button>
+            <button class="form-buttom" type="reset"><a href="#">Nhập lại</a></button>
         </form>
     </div>
 </body>
